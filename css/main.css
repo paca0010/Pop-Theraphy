@@ -1,0 +1,40 @@
+/*****Desktop Styles*****/
+
+.main-head {
+    display: grid;
+    padding: 10px;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: -23px;
+    margin-right: -23px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li{
+    padding-top: 2rem;
+}
+
+nav ul li a {
+    display: flex;
+    margin-top: 2em;
+    margin-left: 23px;
+    margin-right: 23px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul img {
+    width: 15rem;
+    padding-right: 30rem; /* To seperate the logo and nav*/
+}
