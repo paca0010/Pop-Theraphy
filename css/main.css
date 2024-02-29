@@ -36,5 +36,42 @@ nav ul li a {
 
 nav ul img {
     width: 15rem;
-    padding-right: 30rem; /* To seperate the logo and nav*/
+    padding-right: 50rem; /* To seperate the logo and nav*/
+}
+
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: white; /*change color for footer's background*/
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 15rem;
+    padding-right: 17rem; /* To seperate the logo and nav*/  
+}
+
+.social-icons {
+    flex: 1;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.copyright {
+    flex: 1;
+    font-size: 12px;
 }
