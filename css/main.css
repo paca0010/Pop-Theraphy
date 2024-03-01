@@ -1,5 +1,11 @@
 /*****Desktop Styles*****/
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: auto;
+}
+
 .main-head {
     display: grid;
     padding: 10px;
@@ -36,9 +42,132 @@ nav ul li a {
 
 nav ul img {
     width: 15rem;
-    padding-right: 50rem; /* To seperate the logo and nav*/
+    padding-right: 38rem; /* To seperate (give space) the logo and nav*/
 }
 
+
+/* CONTAINER */
+
+.container {
+    padding: 1.5em;
+
+}
+
+/* Home Page */
+
+.pophome {
+    background-image: url(../images/delicious-handmade-candies_23-2147654647.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    background-repeat: repeat;
+
+}
+
+.home p {
+    background-position: center;
+    text-align: center;
+    padding-top: 1em;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.home h1 {
+    background-position: center;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2.5rem;
+}
+
+
+/* First content, why choose us? */
+
+.chooseus {
+    background-position: center;
+}
+
+.why ul li {
+    list-style-type: none;
+}
+
+.why li:first-child {
+    padding-bottom: 2em;
+}
+
+.why li:nth-child(2) {
+    padding-bottom: 2em;
+}
+
+.choose p {
+    text-align: center;
+    font-size: 2em;
+}
+
+.choose h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Order Now Contect Section */
+
+.ordernow {
+    display: flex;
+}
+
+.orderimg {
+    flex: 1;
+    padding: 5em 0 5em 7em; /* Top, Right, Bottom, Left */
+}
+
+.order {
+    flex: 1;
+    padding: 12em 7em 5em 0; /* Top, Right, Bottom, Left */
+}
+
+/* Community Content Section */
+
+.community {
+    display: flex;
+}
+
+.joincomm {
+    flex: 1;
+    padding: 12em 7em 5em 7em; /* Top, Right, Bottom, Left */
+}
+
+.commimg {
+    flex: 1;
+    padding: 5em 7em 5em 0; /* Top, Right, Bottom, Left */
+}
+
+/* Assitance Content Section */
+
+.assistance {
+    display: flex;
+}
+
+.assist {
+    flex: 1;
+    padding: 12em 7em 5em 0; /* Top, Right, Bottom, Left */
+}
+
+.assistimg {
+    flex: 1;
+    padding: 5em 0 5em 7em; /* Top, Right, Bottom, Left */
+}
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
 
 /* FOOTER STYLES */
 
@@ -56,6 +185,7 @@ footer {
 
 .logo {
     flex: 1;
+
 }
 
 .logo img {
@@ -63,15 +193,14 @@ footer {
     padding-right: 17rem; /* To seperate the logo and nav*/  
 }
 
-.social-icons {
-    flex: 1;
-}
 
-.social-icons a {
-    margin: 0 10px;
+.social-icon {
+    font-size: 3em;
+    padding-left: 5rem;
 }
 
 .copyright {
     flex: 1;
     font-size: 12px;
+    margin-left: 20em;
 }
